@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/pku.ico">
+  <link rel="icon" type="image/png" href="images/software-engineer.ico">
 </head>
 
 <body>
@@ -28,10 +28,7 @@
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
       <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#edu">Education</a></li>
-      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#pub">Publications</a></li>
       <!--<li><a href="#misc">Miscellaneous</a></li>-->
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
@@ -42,21 +39,19 @@
               <p style="text-align:center">
                 <name>Cong Ding</name>
               </p>
-              <p>I'm Cong Ding (IPA: [t͡sʰʊŋ tiəŋ], Chinese: 丁聪), a final-year undergraduate student at <a href="http://english.pku.edu.cn/">Peking University</a>, majoring in computer science.
+              <p>I'm Cong Ding (IPA: [t͡sʰʊŋ tiəŋ], Chinese: 丁聪), an incoming software engineer at <a href="https://www.anyscale.com/">Anyscale</a>. I graduated from University of Wisconsin-Madison with a Master's Degree in Computer Sciences. I got my Bachelor's Degree in Computer Science at Peking University, along with a dual degree in Chinese Literature.
               </p>
               <p>
-                I was a research intern at UChicago during the summer of 2019, collaborating with <a href="http://people.cs.uchicago.edu/~aelmore/">Prof. Aaron J. Elmore</a> and <a href="http://sanjayk.io/">Prof. Sanjay Krishnan</a> in <a href="https://uchi-db.github.io/chidatasite/">ChiData</a>. I also worked remotely as a research intern in <a href="http://daslab.seas.harvard.edu/">DASLab</a> at Harvard advised by <a href="https://stratos.seas.harvard.edu/">Prof. Stratos Idreos</a> in 2020. Currenly I'm doing my undergraduate thesis on DBMS testing with <a href="http://taoxie.cs.illinois.edu/">Prof. Tao Xie</a>.
+                 Previously, I collaborated with Prof. Shivaram Venkataraman on DBMS configuration tuning. I was also fortunate to work with Prof. Aaron Elmore and Prof. Sanajy Krishnan at UChicago, Prof. Tao Xie at Peking University and Prof. Stratos Idreos at Harvard.
               </p>
               <p>
                 <b>Email:</b> congding AT cs DOT wisc DOT edu
               </p>
               <p style="text-align:center">
-                <!--a href="files/CV_CongDing.pdf">CV</a> &nbsp/&nbsp -->
                 <a href="https://www.linkedin.com/in/congding1111/">LinkedIn</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=oaHAWpIAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/tson1111">GitHub</a> &nbsp/&nbsp
-                <a href="https://twitter.com/tson1111">Twitter</a> &nbsp/&nbsp
-                <a href="images/Wechat.jpg">WeChat</a>
+                <a href="https://twitter.com/tson1111">Twitter</a>
               </p>
             </td>
             <td style="padding:2.5%;width:35%;max-width:35%">
@@ -66,41 +61,35 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <a name="news" style="color:black">
-              <heading>News</heading>
-            </a>
-            <table>
-              <tr>
-                <td>
-                  <br>
-                  <li>
-                    I'll be joining University of Wisconsin-Madison as a CS PhD student in 2021 fall. Many thanks to everyone who has helped me get there!
-                  </li>
-                  <li>
-                    <b>[12/18]</b> A paper got accepted in ICDE 2021 as short paper! Thanks to my coauthors Dixin, Xi, Aaron and Sanjay!
-                  </li>
-                </td>
-              </tr>
-            </table>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <a name="research" style="color:black">
-                <heading>Research</heading>
+              <a name="pub" style="color:black">
+                <heading>Publications</heading>
               </a>
-              <p>
-                I'm generally interested in data-intensive systems under the context of new workloads, new infrastructures and new hardware. Some of my past research is about resource-efficient database systems and self-learning storage systems. Currently, I'm working on efficent and effective DBMS testing methods.              </p> 
             </td>
           </tr>
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+           <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/llamatune.png' width="160" style="border-style: none">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://dl.acm.org/doi/abs/10.14778/3551793.3551844">
+                <papertitle>LlamaTune: sample-efficient DBMS configuration tuning</papertitle>
+              </a>
+              <br>
+              Konstantinos Kanellis, <b>Cong Ding</b>, Brian Kroth, Andreas Müller, Carlo Curino, Shivaram Venkataraman<br>
+              <em>VLDB'22</em>
+              <br>
+               <a href="slides/llamatune.pdf">[slides]</a>
+               <a href="https://github.com/uw-mad-dash/llamatune/">[GitHub]</a>
+              <br>
+             </td>
+          </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -119,9 +108,7 @@
                <a href="https://youtu.be/Z2Y_dkPuotI">[video]</a>
                <a href="slides/ciao.pdf">[slides]</a>
               <br>
-              <p></p>
-              <p> CIAO is a tunable system to make clients cooperate with the server to enable efficient partial loading and data skipping for a given workload. We proposed an efficient algorithm which would select near-optimal predicate set to push down within given budget.</p>
-            </td>
+             </td>
           </tr>
 
           <tr>
@@ -137,56 +124,10 @@
               Zechao Shang, Xi Liang, Dixin Tang, <b>Cong Ding</b>, Aaron J. Elmore, Sanjay Krishnan, Michael J. Franklin<br>
               <em>CIDR'20</em>
               <br>
-              <p></p>
-              <p>CrocodileDB is a research prototype system that integrates new ways of specifying timing information, new query execution policies, new task schedulers, and new data loading schemes.</p>
             </td>
           </tr>
 
         </tbody></table>
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <a name="edu" style="color:black">
-              <heading>Education</heading>
-            </a>
-              <table>
-                <tr>
-                  <td width="90%">
-                    <b>Peking University</b>, China<br>
-                    B.S. in Computer Science &bull; Sept. 2017 to Jul. 2021 <br>
-                    B.A. in Chinese Literature &bull; Sept. 2018 to Jul. 2021
-                  </td>
-                  <td width="10%">
-                    <img src="images/pku.ico" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          </table>
-      
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <a name="teaching" style="color:black">
-              <heading>Teaching</heading>
-            </a>
-              <table>
-                <tr>
-                  <td width="90%">
-                    Teaching Assistant, Peking University<br>
-                    Spring 2021 &bull; Introduction to Database Systems
-                  </td>
-                  <td width="10%">
-                    <img src="images/pku.ico" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          </table>
-      
       
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -196,7 +137,7 @@
                 The website was "stolen" from <a href="https://jonbarron.info/">Jon Barron</a>. 
               </p>
               <p style="text-align:right;font-size:small;">
-                Last Updated: Apr 2021. 
+                Last Updated: Nov 2022. 
               </p>
             </td>
           </tr>
